@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <meta http-equiv="Cache-Control" content="no-store">
+    <meta http-equiv="Cache-Control" content="no-cache, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="Cache-Control" content="s-maxage=3600">
+    <meta http-equiv="Cache-Control" content="max-age=3600">
+
+    <script src="cache.js"></script>
+    <script src="main.js"></script>
+
+
+
+    <title>Mis 11 Años - Alejandro</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaQueries.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+</head>
+
+<body class="loader-active">
+    <div id="preloader">
+        <div class="content">
+            <h1>Bienvenido a la invitación de Alejandro</h1><br><br>
+
+            <h2 class="loader-subtitle2">¡IMPORTANTE!<br><br>Esta invitación es únicamente para<br>1 niño y 1 adulto
+            </h2>
+            <br><br>
+            <div class="botones">
+                <button id="conMusica">INGRESAR</button>
+                <!--<button id="sinMusica">INGRESAR SIN MÚSICA</button>-->
+            </div>
+        </div>
+    </div>
+    <audio id="audioFondo" src="Godzilla.mp3" preload="auto"></audio>
+
+    <button id="audioControl" class="audio-btn" aria-label="Control de audio">
+        <svg id="audioIcon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" viewBox="0 0 24 24">
+            <path d="M3 10v4h4l5 5V5l-5 5H3zm13.5 2c0-1.77-1.02-3.29-2.5-4.03v8.06c1.48-.74 2.5-2.26 2.5-4.03z" />
+        </svg>
+    </button>
+    <img src="godzillai.png" alt="Decoración izquierda" class="imagen-lateral izquierda">
+    <img src="godzillaid.png" alt="Decoración derecha" class="imagen-lateral derecha">
+    <header class="header">
+
+        <nav class="nav container" id="nav">
+
+
+            <div class="nav__icons">
+                <a href="#nav">
+                    <svg class="nav__open" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="40"
+                        height="40">
+                        <path d="M3 6h18M3 12h18M3 18h18" />
+                    </svg>
+                </a>
+                <a href="#">
+                    <svg class="nav__close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="40"
+                        height="40">
+                        <path d="M18 6L6 18M6 6l12 12" />
+                    </svg>
+                </a>
+            </div>
+
+
+            <ul class="nav__items">
+
+                <li class="nav__links">
+                    <a class="nav__link" href="#temporizador">¿Cuánto falta?</a>
+                </li>
+                <li class="nav__links">
+                    <a class="nav__link" href="#ubicacion">Ubicación</a>
+                </li>
+                <li class="nav__links">
+                    <a class="nav__link" href="#correo">Confirmación</a>
+                </li>
+
+            </ul>
+
+
+        </nav>
+        <div class="nombre_cumple"></div>
+
+
+        <section class="waves">
+            <div class="wave wave1"></div>
+            <div class="wave wave2"></div>
+            <div class="wave wave3"></div>
+        </section>
+
+    </header>
+
+    <main>
+
+
+        <section class="temporizador contenedor block glow" id="temporizador" data-aos="flip-right">
+            <h3 class="title title--tempo">FALTA MUY POQUITO!!</h3>
+            <div class="timer">
+                <div class="timer-item">
+                    <p class="timer-value" id="days">0</p>
+                    <p class="timer-label">Días</p>
+                </div>
+                <div class="timer-item">
+                    <p class="timer-value" id="hours">0</p>
+                    <p class="timer-label">Horas</p>
+                </div>
+                <div class="timer-item">
+                    <p class="timer-value" id="minutes">0</p>
+                    <p class="timer-label">Minutos</p>
+                </div>
+                <div class="timer-item">
+                    <p class="timer-value" id="seconds">0</p>
+                    <p class="timer-label">Segundos</p>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- separador: -->
+        <img class="img__separador" src="separador.png" alt="" data-aos="flip-right">
+        <!-- separador: -->
+
+
+
+
+        <section class="frase contenedor" data-aos="flip-right">
+            <div class="block glow">
+                <p class="frase__paragraph frase__paragraph--active">
+                    "Hay momentos en la vida que son especiales por sí solos… pero compartirlos con las personas que más
+                    quiero los hace aún más inolvidables. ¡Gracias por ser parte de mis 11 años!"
+                </p>
+            </div>
+        </section>
+
+
+        <!-- separador: -->
+        <img class="img__separador" src="separador.png" alt="" data-aos="flip-right">
+        <!-- separador: -->
+
+
+
+
+        <section class="donde" id="donde">
+
+            <div class="donde__container block glow">
+
+
+
+                <article class="partedos contenedor block glow" data-aos="flip-right">
+                    <h3 class="title title--active">FIESTA</h3>
+                    <p class="parrafo parrafo--donde">
+                        Te espero para celebrar juntos, el día 06 de Agosto del 2025 de 18:00 a 22:00 <br>
+                        en el salón "IRLANDA EVENTOS", Rodeito 2455, San Salvador de Jujuy, Jujuy
+                    </p>
+                    <img id="ubicacion" src="irlandaeventos.jpg" alt="" class="donde__img">
+                    <a class="boton__cta" href="https://maps.app.goo.gl/6KHmFc5qAwbpmdqW8?g_st=aw" target="_blank"
+                        rel="noopener noreferrer">Ver ubicación</a>
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- separador: -->
+        <img class="img__separador" src="separador.png" alt="" data-aos="flip-right">
+        <!-- separador: -->
+
+
+        <section class="contenedor_foto" data-aos="flip-right">
+            <img src="Alejandro1.jpg" alt="Imagen de Alejandro" class="foto1">
+        </section>
+
+        <!--<h4 class="regalos__title">REGALOS</h4>
+
+            <img class="regalos__icon" src="assets/vectores/regalos.svg" alt="">
+
+            <p class="parrafo parrafo--regalos">
+                El mejor regalo es tu compañía en este día tan especial para mi.
+            </p>
+
+            <button id="mostrarBoton" class="boton__cta">Ver más</button>
+            <div id="textoDesplegable" class="escondido regalos__data">
+                <div class="lineRegalos"></div>
+                <p class="parrafo parrafo--regalo">
+                    Si deseas regalarme algo más que tu hermosa presencia...</p>
+                <div class="lineRegalos"></div>
+
+                <h6 class="regalo__date">Alias:</h6>
+                <p class="name__alias" id="alias">uala.mp</p>
+                <button class="alias__button" onclick="copyText()">
+                    <img class="copiar__icon" src="copiar.svg" alt="">
+                    Copiar Alias</button>
+                <div class="copy-message" id="copyMessage">¡Copiado!</div>
+
+            </div>-->
+
+
+
+
+
+        <!-- separador: -->
+        <img class="img__separador" src="separador.png" alt="" data-aos="flip-right">
+        <!-- separador: -->
+
+
+        <section class="confirmacion contenedor block glow" id="correo" data-aos="flip-right">
+            <div class="confirmacion__container">
+                <h4 class="parrafo parrafo--confirmacion" data-aos="flip-right">
+                    CONFIRMA TU ASISTENCIA<br>
+                </h4>
+                <div id="asistencia">
+
+                    <div class="asistencia__datos">
+                        <label class="asistencia__label" for="userFirstName">Nombre:</label>
+                        <input class="input__text" type="text" id="userFirstName" placeholder="Tu nombre" required>
+                        <br>
+                        <label class="asistencia__label" for="userLastName">Apellido:</label>
+                        <input class="input__text" type="text" id="userLastName" placeholder="Tu apellido" required>
+                        <br>
+                        <label class="asistencia__label asistencia__label2" for="customMessage">Mensaje:</label>
+                        <textarea class="input__text input__text2" id="customMessage"
+                            placeholder="Mensaje opcional"></textarea>
+                        <br>
+                        <div class="contenedor-botones">
+                            <div class="botones-asistencia">
+                                <button class="boton__cta boton__cta3" id="botonSi">Si asistiré</button>
+                                <button class="boton__cta boton__cta3" id="botonNo">No asistiré</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+        <!-- separador: -->
+        <img class="img__separador" src="separador.png" alt="" data-aos="flip-right">
+        <!-- separador: -->
+
+        <section class="contenedor_foto" data-aos="flip-right">
+            <p class="frase_fotos">
+                "11 años de aventuras, 4.015 días de juegos, miles de risas, una imaginación sin
+                límites, una familia que lo adora, amigos de los buenos, una infancia feliz y…<br>lo mejor aún está por
+                venir."
+            </p>
+            <img src="Alejandro2.jpg" alt="Imagen de Alejandro" class="foto">
+        </section>
+
+
+
+    </main>
+
+    <!--<section class="footer">
+        <div class="ondas">
+            <div class="onda" id="onda1"></div>
+            <div class="onda" id="onda2"></div>
+            <div class="onda" id="onda3"></div>
+            <div class="onda" id="onda4"></div>
+        </div>
+        <h3 class="footer__frase">"11 años de aventuras, 4.015 días de juegos, miles de risas, una imaginación sin
+            límites, una familia que lo adora, amigos de los buenos, una infancia feliz y… lo mejor aún está por
+            venir."
+        </h3>
+    </section>-->
+
+    <section class="info" id="info">
+        <div class="ondas">
+            <div class="onda" id="onda1"></div>
+            <div class="onda" id="onda2"></div>
+            <div class="onda" id="onda3"></div>
+            <div class="onda" id="onda4"></div>
+        </div>
+        <h6 class="info__text">
+            Página creada por "HumaCraft" para los 11 años de Alejandro
+            <br>- 2025 &copy todos los derechos reservados -
+        </h6>
+    </section>
+
+    <!--<section class="info" id="info">
+        <h6 class="info__text">
+            Página creada por "HumaCraft" para los 11 años de Alejandro
+            <br>- 2025 &copy todos los derechos reservados -
+            <a class="info__link" href="humacraft22@gmail.com"></a>
+        </h6>
+
+    </section>-->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
